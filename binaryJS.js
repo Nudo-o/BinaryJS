@@ -1,4 +1,4 @@
-window.binaryJS = new (function() {
+/*window.binaryJS*/const binaryJS = new (function() {
     this.binaryJSCode = ""
     this.commonJSCode = ""
 
@@ -23,7 +23,7 @@ window.binaryJS = new (function() {
 
         this.execute(this.commonJSCode)
 
-        delete window.binaryJS
+        /*delete window.binaryJS*/
     }
     
     this.getConvertToCommonJS = function(codes) {
